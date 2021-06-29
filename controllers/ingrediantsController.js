@@ -1,4 +1,4 @@
-const { Ingrediant } = require("../db/models");
+const { Ingrediant } = require("../db1/models");
 
 exports.ingrediantList = async (req, res) => {
     try {
@@ -11,4 +11,7 @@ exports.ingrediantList = async (req, res) => {
     } catch (error) {
       res.status(500).json({ message: "Server Error" });
     }
+
   };
+
+  
