@@ -4,4 +4,4 @@ const db = require("./db/models");
 const app = express();
 
 app.listen(8000);
-constol.log("hi abdullah");
+
